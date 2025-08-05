@@ -1,0 +1,12 @@
+Beige Organico
+#F55BDD
+Verde Nopal
+#6B4F4E
+Tierra quemada
+#6E4F3A
+Arena Suave
+#DCCCB3
+Oro Mexicano
+#A38D5C
+Rojo Granate
+#733C3C
