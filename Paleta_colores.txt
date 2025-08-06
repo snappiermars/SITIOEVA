@@ -1,12 +1,12 @@
 Beige Organico
-#F55BDD
+#efe1c7ff
 Verde Nopal
-#6B4F4E
+#707938ff
 Tierra quemada
-#6E4F3A
+#6e4827ff
 Arena Suave
-#DCCCB3
+#e1d2b5ff
 Oro Mexicano
-#A38D5C
+#988244ff
 Rojo Granate
-#733C3C
+#682c24ff
