@@ -35,9 +35,8 @@
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="#" aria-current="page" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Inicio</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-[#707938] hover:text-white">Ropa</a>
+            <a href="#Ropa" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-[#707938] hover:text-white">Ropa</a>
             <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-[rgb(110,72,39)] hover:text-white">Proyectos</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-[rgb(110,72,39)] hover:text-white">Calendario</a>
           </div>
         </div>
       </div>
@@ -76,14 +75,40 @@
       <a href="#" aria-current="page" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">Dashboard</a>
       <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
       <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
     </div>
   </el-disclosure>
 </nav>
 
-<main class="bg-[#efe1c7] py-10 px-4 mt-10 mb-16">
+<main class="bg-[#efe1c7] py-10 px-4">
+
+  <!--ABOUT US-->
+  <section id="Inicio" class="w-full px-6 py-12 bg-gray-50">
+  <!-- Título y descripción -->
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Sobre Nosotros</h2>
+    <p class="text-gray-600 text-lg">
+      En Piel y Espinas creemos que la verdadera moda se construirá a partir de la empatía:
+defendiendo un mundo sin crueldad animal y libre de contaminación.
+Cada prenda será una alternativa responsable que cuida la vida, respeta la naturaleza y
+preserva la cultura mexicana. Con materiales como la piel de nopal y mezclilla orgánica,
+crearemos moda consciente para quienes no sólo desean verse bien, sino también hacer el
+bien. Porque vestir sin crueldad será nuestro mayor acto de belleza y orgullo.
+    </p>
+  </div>
+
+  <!-- Galería de 4 imágenes -->
+  <div class="mt-10 flex flex-wrap justify-center gap-6">
+    <img src="./img/AboutUs/campo.webp" alt="Imagen 1" class="w-60 h-60 object-cover rounded-xl shadow">
+    <img src="./img/AboutUs/charros.webp" alt="Imagen 2" class="w-60 h-60 object-cover rounded-xl shadow">
+    <img src="./img/AboutUs/Maquila.webp" alt="Imagen 3" class="w-60 h-60 object-cover rounded-xl shadow">
+    <img src="./img/AboutUs/Nopales.jpeg" alt="Imagen 4" class="w-60 h-60 object-cover rounded-xl shadow">
+  </div>
+</section>
+
+
   <!-- Carrusel-->
-  <section class="relative">
+  <section id="Ropa" class="relative">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4 text-center">Nuestras Prendas</h2>
   
   <!-- aquí van tus tarjetas article -->
     <div class="flex space-x-6 overflow-x-auto overflow-y-hidden p-6 h-[28rem] w-4/5 mx-auto">
@@ -196,13 +221,6 @@
 </main>
 
 
-
-
-
-
-
-
-
 <footer class="bg-[#203500] rounded-lg shadow-sm dark:bg-[#203500] m-0">
     <div class="w-full p-4 md:py-8">
         <div class="md:flex md:justify-between">
@@ -211,11 +229,6 @@
                   <img src="./img/Logo reducido.jpeg" class="h-8 me-3" alt="Piel y Espinas logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Piel y Espinas</span>
               </a>
-              <p class="max-w-lg mb-3 p-2 text-white dark:text-white">En Piel y Espinas creemos que la verdadera moda se construirá a partir de la empatía: defendiendo un mundo sin crueldad animal y libre de contaminación.
-Cada prenda será una alternativa responsable que cuida la vida, respeta la naturaleza y
-preserva la cultura mexicana. Con materiales como la piel de nopal y mezclilla orgánica,
-crearemos moda consciente para quienes no sólo desean verse bien, sino también hacer el
-bien. Porque vestir sin crueldad será nuestro mayor acto de belleza y orgullo.</p>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
